@@ -1,4 +1,7 @@
 void main() {
+  //not adding the variable type
+  var response = "data";
+
   //String Variable
   String name = "Samuel";
 
@@ -14,4 +17,11 @@ void main() {
   var index4 = "just a random variable with no type initialization";
   print(
       "My name is $name and i'm $age years old, so nice to start a dart and flutter journey after graduating from $index1");
+
+  //string to integer
+  var a, b, c;
+  a = 12;
+  b = "2";
+  c = a + int.parse(b);
+  print("The addition of $a and $b is $c");
 }
